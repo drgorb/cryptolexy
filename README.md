@@ -5,6 +5,10 @@ The project's aim is to enable encryption for all the words you write in order t
 
 First things first: we need to get the requirements written down. 
 
+* user friendly solution that can be understood by your mom (even by the moms who are no engineers)
+* hack proof solution that is difficult to crack RSA 2048 springs to mind
+* ubiquitous solution that can be used for everything from eMail to SMS to phone calls.
+
 # Why hide things?
 
 If we were not upset by the government knowing what we do there would not be so many articles and buzz about the matter. I believe it is wrong for the government to find out so much and I am not alone.
