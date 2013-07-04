@@ -29,6 +29,29 @@ In a second step maybe we could hide
 * spoken communication
 * video communication
 
-# Infrastructure
+# requirements
+
+## Infrastructure
 
 In order to encrypt and decrypt information the only way I know is by sharing a public key with the world and keeping a private key private. Hence the need for a key sharing infrastructure.
+
+### sharing the public keys
+
+That is the easy part. A server who knows to serve the right key for the right eMail should do the job.
+
+### keeping the private keys private
+
+That is the difficult part. You can not trust people to keept their private keys secure and they will not trust anyone to keep an eye on them in their stead. Here is the first big question: 
+
+under what conditions would you trust an organization with your private key?
+
+#### propositions
+
+The things I can offer:
+
+* a Switzerland based foundation 
+* a system to ensure no human being has ever access to the key
+* a system to unlock your private key when you loose your password
+* ensure that the password for the certificate is long and secure
+* ensure that you don't need to remember your password
+
